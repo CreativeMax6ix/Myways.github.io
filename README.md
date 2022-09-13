@@ -1,1 +1,0 @@
-# Myways.github.io
