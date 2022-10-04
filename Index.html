@@ -5,40 +5,54 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My first website</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito">
     <link rel="stylesheet" href="styles.css">
+    <style>
+       h3 {
+        color: #fc7629;
+
+       }
+    </style>
 </head>
 <body>
-
+  <!-- <div class="first-class">
+    <div class="second-class">
+        <h1 style="color: green;" id="first-id" class="third-class">Text</h1>
+    </div> -->
+  
     <header><h1>Welcome to my first website!</h1> 
         <a href="contact.html">Contact me</a>
         <!-- <a href="https://www.google.com">Find in Google</a> -->
-        <br>
-    </header>
-   
-    <article><h3>This is my first blog post</h3>
-        <p>This is the content of my first blog post</p>
-        <br>
-     </article>
-   
-     <article><h3>This is my second blog post</h3>
-        <p>This is the content of my second blog post</p>
-        <br> <!-- this tag is used for new line -->
-     </article>
-   
-     <article><h3>This is my third blog post</h3>
-        <p>This is the <mark>content</mark> of my third blog post <br> Continue the content after <i>breaking line</i> <sup class="sup_element" style="color: red">*</sup> </p>
-     
-        <small> <sup class="sup_element">*</sup>Another sentence</small>
-     <br>
-     <br>
-     <br>
-     <br>
-    </article>
-   
+        </header>
+    
 
-<div> <!-- div is the block element -->
-    My skills
-<table border="1">
+        <div id="main-content">
+
+            <section id="articles">
+                <article>
+                    <h3>This is my first blog post</h3>
+                 <p>This is the content of my first blog post</p>
+    
+                    <!-- width reference to only content area -->
+                    <!-- style="border: 1px solid black; padding: 20px;margin-bottom: 120px; width: 180px;" -->
+                    </article>
+            
+               
+                 <article><h3>This is my second blog post</h3>
+                    <p>This is the content of my second blog &lt;something&gt; post</p>
+                   </article>
+            
+                
+                 <article><h3>This is my third blog post</h3>
+                    <p>This is the <mark>content</mark> of my third blog post <br> Continue the content after <i>breaking line</i> <sup class="sup_element">*</sup> </p>
+                 <small> <sup class="sup_element">*</sup>Another sentence</small>
+                 </article>
+             
+</section>
+
+<div id="skills"> <!-- div is the block element -->
+   <b style="font-size: 34px; font-weight: 900; color: #20D0FF;">My skills</b> 
+<table>
     <tr>
         <th>Technology</th>
         <th> Level</th>
@@ -49,18 +63,23 @@
     </tr>
     <tr>
         <td>CSS</td>
-        <td>0 :(</td>
+        <td>good :)</td>
     </tr>
 </table>
 </div>
+<!-- <div style="clear: both;"></div> it is a float properties-->
 
-<br>
-<br>
-<br>
 
-<footer><div>
-    Footer area. &copy; <strong>Me</strong> & <b>My Tutor</b> 
 </div>
+
+
+<footer>
+     <div>
+        <!-- style="position: relative; position: absolute; position: fixed; right: 20px; bottom: 0;" it's use for positioning -->
+ Footer area. &copy; <strong>Me</strong> & <b>My Tutor</b> 
+    <!-- <p>Another content of the footer</p> -->
+</div>
+    <!-- <p>Another content of the footer</p> -->
 </footer>
 
 <!-- Content not wrapped in any tag (barely used in reality) -->
